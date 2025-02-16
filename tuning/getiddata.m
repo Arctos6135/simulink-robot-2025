@@ -1,4 +1,4 @@
-file_path = "C:\Users\micah\OneDrive\Documents\data3.csv";
+function getiddata(file_path)
 
 table = log2table(file_path);
 timestamp = "Timestamp";
@@ -47,3 +47,5 @@ else
     driveiddata = driveiddata_;
 end
 save("data\models\drive.mat", "driveiddata");
+
+end

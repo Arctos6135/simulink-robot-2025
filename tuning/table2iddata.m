@@ -10,7 +10,7 @@ input_ = rmmissing(input_);
 output_ = rmmissing(output_);
 
 % Averages the delta time.
-ts = mean(timestamp_(2:end) - timestamp_(1:end-1));
+ts = 0.02; % mean(timestamp_(2:end) - timestamp_(1:end-1));
 
 iddata_ = iddata(output_, input_, ts);
 end
